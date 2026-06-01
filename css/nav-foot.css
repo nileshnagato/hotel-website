@@ -1,0 +1,134 @@
+/* RESET */
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+/* NAVIGATION BAR */
+
+#navbar::before{
+    top: 0px;
+    content: "";
+    background-color: #e8c28e;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    top: 0;
+}
+
+#navbar{
+    position: relative;
+}
+
+ #logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+
+#logo img{
+    height: 70px;
+    margin: 6px 11px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+
+#navbar ul li a{
+    color: #ebb76e;
+    display: block;
+    padding: 3px 30px;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: 00.4s;
+}
+
+#navbar ul li a:hover{
+    color: greenyellow;
+    background-color: #d8830d;
+    opacity: 0.8;
+}
+
+#navbar ul li a:active{
+    background-color: #794b09;
+}
+
+/* FOOTER */
+footer{
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-color: rgb(188, 171, 114);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content p{
+    max-width: auto;
+    margin: 10px auto;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 1.5rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+}
+
+footer img{
+    height: 20px;
+    width: 20px;
+    padding: 3px 5px;
+}
+
+.footer-bottom{
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+    background-color: rgb(135, 122, 79);
+}
+
+.footer-bottom p{
+    font-size: 70px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.mail{
+    text-decoration: none;
+    color: #473a27;
+    padding-bottom: 1%;
+}

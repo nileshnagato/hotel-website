@@ -1,0 +1,61 @@
+
+.home-top{
+    display: flex;
+    padding-bottom: 5px;
+    flex-direction: column;
+    text-align: right;
+}
+
+.home-top img{
+    width: 100%;
+    height: auto;
+}
+
+.home-top p{
+    position: absolute;
+    right: 45%;
+    top: 85%;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.home-top h1{
+    position: absolute;
+    right: 25%;
+    top: 90%;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.safari{
+    display: block;
+    text-align: center;
+    padding: 20px 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.different{
+    display: block;
+    text-align: center;
+    padding: 20px 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 70px;
+}
+
+.content{
+    color: #74748a;
+    font-size: 1.1rem;
+    line-height: 150%;
+}
+
+.bold{
+    color: #6d3628;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+

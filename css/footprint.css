@@ -1,0 +1,97 @@
+.footprint-top{
+    display: flex;
+    padding-bottom: 5px;
+    flex-direction: column;
+    text-align: right;
+}
+
+.footprint-top img{
+    width: 100%;
+    height: 600px;
+}
+
+.header{
+    position: absolute;
+    right: 15%;
+    top: 65%;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.sub-header{
+    position: absolute;
+    font-weight: 500px;
+    right: 31%;
+    top: 73%;
+    color: #fff;
+}
+
+.bold{
+    color: #6d3628;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.sub-bold{
+    color: #6d3628;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+
+.content{
+    color: #74748a;
+    font-size: 1.1rem;
+    line-height: 150%;
+}
+
+.lodge{
+    display: block;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 60px;
+}
+
+.photo-text{
+    display: flex;
+    padding: 20px 5%;
+}
+
+.photo-text p{
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+section a{
+    text-decoration: none;
+    color: #6d3628;
+    display: flex;
+    justify-content: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+section .bold{
+    padding-top: 25%;
+}
+
+.photo-text img{
+    height: 485px;
+    transition: 0.4s;
+}
+
+.photo-text img:hover{
+    box-shadow: 0px 4px 20px ;
+}
+
+.dollar{
+    padding-bottom: 3%;
+    font-size: 8rem;
+    color: rgb(30, 90, 42);
+}
