@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chokhi Dhani</title>
+    <link rel="stylesheet" href="/CSS/nav-foot.css">
+    <link rel="stylesheet" href="/CSS/index.css">
+    <script src="/Images/Slider/index.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="/Images/logo.webp" alt="The Chokhi Dhani">
+        </div>
+        <ul>
+            <li class="items"><a href="/index.html" target="_blank">Home</a></li>
+        
+            <li class="items"><a href="/gallery.html" target="_blank">Gallery</a></li>
+            <li class="items"><a href="/footprint.html" target="_blank">Footprint</a></li>
+            <li class="items"><a href="/contactus.html" target="_blank">Contact Us</a></li>
+        </ul>
+    </nav>
+
+        <div class="home-top">
+            <img src="/Images/Home/rjbackground.jpg" alt="chokhi dhani">
+            <p></p>
+            <h1><strong>The Chokhi Dhani</strong></h1>
+         </div>
+
+         <div class="safari">
+            <p class="bold">RAJASTHAN LUXURY SAFARI</p>
+            <p class="content">Join us on a luxury journey through Rajasthan for the adventure of a lifetime. Let us guide you to some of the most awe-inspiring cultural and natural landscapes in India. Experience close encounters with regal Bengal tigers in the wild, watch herds of deer roam across golden grasslands, and feel the timeless spirit of the desert flow through your veins..</p><br>
+            <p class="content">Our Rajasthan Collection will immerse you in some of the most unique and unforgettable experiences. Begin your journey by enjoying breakfast in a heritage haveli surrounded by peacocks in the gardens. Continue on to Ranthambhore or Jawai to spot leopards and tigers in their natural habitat. Witness a traditional Rajasthani folk performance under a starlit sky as camels wander nearby. Then travel to the Thar Desert to experience the serenity of a luxury desert camp amid endless dunes. As you journey through Rajasthan with us, prepare to be inspired by the people you’ll meet and the stories that unfold around you</p><br>
+            <p class="content">We operate a curated collection of luxury retreats and heritage stays across Rajasthan’s most iconic and secluded locations. From palatial residences in Jaipur and Udaipur, to wilderness lodges in Ranthambhore and boutique desert camps near Jaisalmer—we offer it all. In addition, we specialize in creating bespoke, bucket-list adventures across Rajasthan and beyond. So dream big—whether it’s a royal wedding, an epic road trip, or a cultural immersion—we’re here to bring your vision to life. Our passionate and knowledgeable team is ready to welcome you on your unforgettable journey through Rajasthan.</p>
+         </div>
+
+         <div class="different">
+            <p class="bold">WHAT MAKES US DIFFERENT</p>
+            <p class="content">Our journeys are about so much more than simply visiting the iconic forts and palaces. Whether it’s a short stay in one of our heritage properties or a bespoke tour through the entire region, we offer a truly immersive travel experience. If you want to delve deep into the soul of the land, then our Rajasthan collection is the perfect choice for you.
+
+                We take pride in revealing Rajasthan’s hidden gems—those off-the-beaten-path moments that spark meaningful connections and lifelong memories. From quiet village encounters to private cultural performances under the stars, our experiences go beyond the ordinary.
+                
+                Our personally hosted stays give you the chance to uncover the true essence of this majestic land and understand why we’re so passionate about sharing it. With a dedicated team eager to share their firsthand knowledge and deep love for Rajasthan, your journey becomes not only authentic but transformative.
+                
+                </p>
+         </div>
+
+         <div class="slider">
+            <img name="slide" width=100% height="700">
+         </div>
+
+         <div class="different">
+            <p class="bold">EXPERIENCES IN RAJASTHAN</p>
+            <p class="content">
+                <h2>If you are looking for a luxury escape in Rajasthan, these carefully curated itineraries are designed to inspire and impress. From peaceful desert retreats to exhilarating adventures through ancient forts and palaces, we’ve got it covered. Rajasthan and its surrounding regions offer an endless playground for exploration and discovery.
+
+Feel the thrill of camel rides across golden sand dunes at sunset. Experience the wonder of close encounters with vibrant wildlife in Ranthambhore National Park. Discover a different world as you boat across the serene lakes of Udaipur or wander through the bustling, colorful bazaars of Jaipur and Jodhpur. Meet warm-hearted communities who will welcome you into a culture steeped in tradition, hospitality, and heritage.</h2>
+            </p>
+         </div>
+
+         <script>
+            var i = 0;
+var images = [];
+var time = 2000;
+
+
+images[0] = 'img1.jpg'
+images[1] = 'img2.jpg';
+images[2] = 'img3.jpg';
+images[3] = 'img4.jpg';
+images[4] = 'img5.jpg';
+images[5] = 'img6.jpg';
+images[6] = 'img7.jpg';
+
+function changeImg(){
+    document.slide.src = images[i];
+
+
+if(i < images.length-1){
+    i++;
+} else{
+    i=0;
+}
+
+setTimeout("changeImg()", time);
+}
+
+window.onload = changeImg;
+         </script>
+
+    <footer>
+        <div class="footer-content">
+            <p>"Through our unique collection of spectacular properties, online shop and Footprint foundation, we unite sustainable tourism with wildlife conservation and communities, making a difference to people and planet."</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/share/1GEZJR7iVy/?mibextid=wwXIfr" target="_blank"><img src="/Images/Footer/black-facebook-icon-744186.png" alt="Facebook"></a></li>
+                <li><a href="https://www.instagram.com/nilesh.choyal.58?igsh=MWpla3R5b2czaGo1Ng%3D%3D&utm_source=qr" target="_blank"><img src="/Images/Footer/toppng.com-instagram-icon-200x200.png" alt="Instagram"></a></li>
+                <li><a href="https://x.com/nileshchoyal4?s=21" target="_blank"><img src="/Images/Footer/toppng.com-follow-me-gold-twitter-icon-vector-1005x817.png" alt="Twitter"></a></li>
+                <li><a href="https://www.youtube.com/@nileshchoyal5096" target="_blank"><img src="/Images/Footer/Youtube-icon-symbol-on-transparent-background-PNG.png" alt="Youtube"></a></li>
+            </ul>
+            <a href="mailto:hotelchokidhani@gmail.com" target="_blank" class="mail">hotelsafari@gmail.com</a>
+        </div>
+        <div class="footer-bottom">
+            <p>Website by Nilesh &copy; 2025|All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

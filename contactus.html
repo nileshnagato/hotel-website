@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Chokhi Dhani</title>
+    <link rel="stylesheet" href="/CSS/nav-foot.css">
+    <link rel="stylesheet" href="/CSS/contactus.css">
+    <script src="/Javascript/contact verification.js"></script>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="/Images/logo.webp" alt="The Chokhi Dhani">
+        </div>
+        <ul>
+            <li class="items"><a href="/index.html" target="_blank">Home</a></li>
+          
+            <li class="items"><a href="/gallery.html" target="_blank">Gallery</a></li>
+            <li class="items"><a href="/footprint.html" target="_blank">Footprint</a></li>
+           
+        </ul>
+    </nav>
+
+    <div class="contact-top">
+        <img src="/Images/Contact/desert.jpg" alt="lodge">
+        <p class="header">CONTACT US</p>
+    </div>
+
+    <div class="lodge">
+        <p class="sub-bold">Our experts can tailor your unforgettable journey</p>
+        <p class="bold">PERSONAL INFORMATION</p><br><br>
+        <p class="content">Please fill in all of the below details so that we can make contact with you with regards to your query.</p>
+    </div>
+
+    <form action="/backend.php" name="myForm" onsubmit="return validateForm()" method="post">
+
+            <table>
+                    <tr>
+                        <td colspan="2">First Name*</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="text" id="Name" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Last Name*</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="text" id="Address" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Email*</td>
+                    </tr>
+                    
+                    <tr>
+                        <td colspan="2"><input type="email" id="Email" required></td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Phone</td>
+                        <td>Mobile*</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="phno"></td>
+                        <td><input type="text" id="mobn" value="" required></td><td><b><span id="error"></span></b></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Country of Residence*</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><select id="country" required><option value="india">india</option>
+                        <option value="nepal">nepal</option>
+                    <option value="other">other</option></select></td>
+                    </tr>
+                
+            </table>
+
+
+            <div class="lodge">
+                <p class="bold">BOOKING INFORMATION</p>
+            </div>
+
+        
+            <table>
+                    <tr>
+                        <td colspan="2">Which Lodge are you most interested in?*</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <select id="Lodge" required>
+                                <option value="camel safari">camel safari</option>
+                                <option value="heritage">heritage</option>
+                                <option value="nature decodin">nature decoding</option>
+                                <option value="stays">stays</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Travel dates from*</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="date" id="date" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Number of Nights*</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="number" id="nights" min="1" max="30" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Budget per Person for the Holiday*</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <select id="budget" required>
+                                <option value="1">₹965 - ₹1,515</option>
+                                <option value="2">₹3000 - ₹5000</option>
+                                <option value="3">₹5000 - ₹8000</option>
+                                <option value="4">₹8000 - ₹12000</option>
+                                <option value="5">₹12000></option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">How did you hear about us?</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <select id="media">
+                                <option value="Facebook">Facebook</option>
+                                <option value="Youtube">Youtube</option>
+                                <option value="Instagram">Instagram</option>
+                                <option value="Google">Google</option>
+                                <option value="Friends or Family">Friends or Family</option>
+                            </select>
+                        </td>
+                    </tr>
+            </table>
+            <div class="button">
+                <input type="submit" value="ENQUIRE NOW" onclick="">
+            </div>
+    </form><br><br>
+
+    
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>"Through our unique collection of spectacular properties, online shop and Footprint foundation, we unite sustainable tourism with wildlife conservation and communities, making a difference to people and planet."</p>
+            <ul class="socials">
+                <li><a href="" target="_blank"><img src="/Images/Footer/black-facebook-icon-744186.png" alt="Facebook"></a></li>
+                <li><a href="" target="_blank"><img src="/Images/Footer/toppng.com-instagram-icon-200x200.png" alt="Instagram"></a></li>
+                <li><a href=""><img src="/Images/Footer/toppng.com-follow-me-gold-twitter-icon-vector-1005x817.png" alt="Twitter"></a></li>
+                <li><a href="" target="_blank"><img src="/Images/Footer/Youtube-icon-symbol-on-transparent-background-PNG.png" alt="Youtube"></a></li>
+            </ul>
+            <a href="mailto:nileshchoyal" target="_blank" class="mail">chokhidhani@gmail.com</a>
+        </div>
+        <div class="footer-bottom">
+            <p>Website by Nilesh &copy; 2022|All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+</body>
+</html>
